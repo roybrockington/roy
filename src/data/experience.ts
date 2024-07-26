@@ -1,62 +1,27 @@
 import type { Props as ExperienceProp } from "../components/experience/props";
 
 export const EXPERIENCE: ExperienceProp[] = [
-  {
-    dates: "November 2021 — Present",
-    title: "Full Stack Engineer",
-    company: "Dutch Pet (Remote)",
-    companyUrl: "https://www.dutch.com",
-    description:
-      "Designed and architected dutch.com, utilizing technologies such as Shopify Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js, and Tailwind. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
-    technologies: [
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "Vue.JS",
-      "Node.JS",
-      "Liquid",
-      "Alpine.js",
-      "Tailwind",
-    ],
-    logo: "/logos/dutchpet.jpeg",
-  },
-  {
-    dates: "March 2021 — November 2021",
-    title: "Full Stack Ecommerce Engineer",
-    company: "AbsoluteWeb",
-    companyUrl: "https://www.absoluteweb.com",
-    description:
-      "Developed and maintained e-commerce solutions on Shopify (Storefront API, Admin API), BigCommerce, and Magento using React JS, Vue JS, Node JS, Liquid, SASS/PostCSS. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
-    technologies: [
-      "React JS",
-      "Vue JS",
-      "Node JS",
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "BigCommerce",
-      "Magento",
-      "Liquid",
-      "SASS/PostCSS",
-    ],
-    logo: "/logos/aws.jpeg",
-  },
-  {
-    dates: "December 2019 — January 2021",
-    title: "Product Designer",
-    company: "Miinto",
-    companyUrl: "https://www.miinto.com",
-    description:
-      "Created a Design System for the internal system using Figma. Developed a plugin for Figma to populate prototypes with real data to enhance the prototyping and testing experience. Conducted user research and testing, and created user flows, wireframes, and Hi-Fi prototypes.",
-    technologies: ["Figma"],
-    logo: "/logos/miinto.jpeg",
-  },
-  {
-    dates: "January 2019 — September 2019",
-    title: "Front-End Engineer",
-    company: "Efigence",
-    companyUrl: "https://www.efigence.com",
-    description:
-      "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
-    technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
-    logo: "/logos/efigence.jpeg",
-  },
+    {
+        dates: "October 2016 — Present",
+        title: "Head of Digital",
+        company: "SCV (Remote)",
+        companyUrl: "https://www.scvdistribution.co.uk",
+        description:
+        [
+            "Developed custom B2B portal apps for clients to filter and download personalised pricing, check live stock balances and purchase digital delivery products using TypeScript, React, Laravel & Vite. Added internal portal tools for internal staff to monitor sales stats and calculate quotes.",
+            "Created 3rd party API for client sites to advertise and sell digital delivery products instantaneously, including full documentation via Scribe.",
+            "Designed and built company website end-to-end from Adobe XD wireframes and sitemaps through to Drupal 9/10 custom themes, modules and migrations with PHP & JavaScript Added advanced Drupal functionality using Leaflet.js for partner locators, Algolia for fuzzy search, Slick for merchandising visuals and Drupal Commerce for direct sales.",
+            "Devised and built 3d sales analysis maps to render annual sales statistics across different regions in the form of an interactive heatmap using Typescript, Redux and DeckGL.",
+            "Developed and deployed sales incentive web app for retail partner staff using Laravel, Blade, Chart.js & JavaScript."
+        ],
+        technologies: [
+            "TypeScript",
+            "React",
+            "Laravel",
+            "PHP",
+            "Tailwind",
+            "Bootstrap",
+        ],
+        logo: "https://pbs.twimg.com/profile_images/1610644126243983362/pG8sIrif_400x400.png",
+    },
 ];

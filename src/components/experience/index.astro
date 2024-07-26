@@ -54,9 +54,11 @@ const { dates, title, company, companyUrl, description, technologies, logo } =
           </a>
         </div>
       </h3>
-      <p class="mt-2 text-sm leading-normal">
-        {description}
-      </p>
+      <div class="mt-2 text-sm leading-normal flex flex-col gap-y-4">
+        {description.map(item =>
+            <div>{item}</div>
+        )}
+      </div>
       {
         technologies.length && (
           <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
